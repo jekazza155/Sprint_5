@@ -23,9 +23,9 @@ class MainPageLocators:
     topping_ul = (
     By.XPATH, "(.//ul[@class = 'BurgerIngredients_ingredients__list__2A-mT'])[3]")  # Выбор начинок на главной странице
 
-    active_bun_btn = (By.XPATH, './/*[@id="root"]/div/main/section[1]/div[1]/div[1]')
-    active_sauces_btn = (By.XPATH, './/*[@id="root"]/div/main/section[1]/div[1]/div[2]')
-    active_toppings_btn = (By.XPATH, './/*[@id="root"]/div/main/section[1]/div[1]/div[3]')
+    active_bun_btn = (By.XPATH, ".//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")
+    active_sauces_btn = (By.XPATH, ".//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")
+    active_toppings_btn = (By.XPATH, ".//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")
 
 class AuthPageLocators:
     """Форма авторизации"""
